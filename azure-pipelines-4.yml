@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g @angular/cli
+    npm install -g @angular/cli  cli.warnings.versionMismatch false
     npm install
     ng add @angular/material
     ng add @angular/flex-layout @angular/cdk
