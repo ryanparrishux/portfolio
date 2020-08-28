@@ -18,7 +18,5 @@ steps:
 - script: |
     npm install -g @angular/cli  cli.warnings.versionMismatch false
     npm install
-    ng add @angular/material
-    ng add @angular/flex-layout @angular/cdk
     ng build --prod
   displayName: 'npm install and build'
