@@ -1,0 +1,15 @@
+#left-feature {
+    position: relative;
+    font-size: x-large;
+    margin-top:5%;
+    margin-left:5%;
+}
+#right-feature {
+    position: static;
+    display:inline-block;
+    margin-top:15%;
+    margin-right:10%;
+}
+#footer {
+    margin-top:80%;
+}
