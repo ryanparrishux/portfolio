@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-app-ea854": {
+      "hosting": {
+        "portfolio-app": [
+          "portfolio-app-ea854"
+        ]
+      }
+    }
+  }
+}
