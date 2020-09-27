@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,
+body { 
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color:#FAFAFF;
+    background-image: url(assets/background-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    font-display: swap;
+}
+
+#footer {
+    background-color: #2F6690;
+}
+
+a { 
+color:#333333;   
+}
+
+#Container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a:visited { 
+    text-decoration: none;
+}
+
+a:active {
+   text-decoration:none; 
+}
+
+a:link { 
+    text-decoration: none;
+}
