@@ -1,0 +1,13 @@
+@media (max-device-width: 1072px)
+{
+#hidemobile { display: none; }
+ 
+}
+/* Landscape */
+ 
+
+#right-hero-text {
+    font-size: 15em;
+    color:#4E8098;
+
+}

@@ -1,0 +1,65 @@
+    <!--<label>
+      Name:
+      <input type="text" formControlName="Name" required>
+    </label>
+  
+      <label>
+        Email:
+        <input type="text" formControlName="Email">
+      </label>
+  
+      <label>
+        Message:
+        <input type="text" formControlName="Message">
+      </label>
+      
+    <button type="submit" (click)="PostFormData()">Submit</button>
+    --> 
+
+      
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="submitForm()">
+        <div class="form-group">
+            <!--<input type="file" (change)="uploadFile($event)">-->
+        </div>
+
+        <div class="form-group input-group-lg">
+            <input class="form-control" placeholder="Name" formControlName="Name">
+        </div>
+        <div class="form-group input-group-lg">
+          <input class="form-control" placeholder="Email" formControlName="Email">
+      </div>
+      <div class="form-group input-group-lg">
+        <input class="form-control" placeholder="Message" formControlName="Message">
+    </div>
+
+        <div class="form-group">
+            <button class="btn btn-danger btn-block btn-lg">Create</button>
+        </div>
+    </form>
+</div>
+  
+  
+  
+
+
+<!--
+<div fxLayout="column">
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <br>
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput>
+        </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Message</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  <div>
+  <button mat-raised-button color="primary">Submit</button> 
+</div>
+-->

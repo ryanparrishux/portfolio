@@ -1,0 +1,29 @@
+<nav id="main-nav" aria-label="Main">
+
+    <div fxFlexFill id="nav" > 
+        <div fxLayout="row">
+            <div id="logo" fxLayoutAlign="start center">
+                <div fxLayout="row inline">
+                <h2 id="logo">
+                <a routerLink="/home" routerLinkActive="active"> Ryan Parrish </a>
+                </h2>
+                </div>
+            </div>
+            <div id="links" fxLayoutAlign="end center">
+                <div *ngIf="isSmall; else fullMenu">
+                    <div>
+                    <app-mobilemenu></app-mobilemenu> </div>
+                </div>
+                <ng-template #fullMenu>
+                    <div fxLayout="row inline" fxLayoutGap="5%">
+                        <div><a routerLink="/home" routerLinkActive="active">Home</a></div>
+                        <div><a routerLink="/about" routerLinkActive="active">About</a></div>
+                        <div><a routerLink="/work" routerLinkActive="active">Work</a></div>
+                        <div><a routerLink="/Contact" routerLinkActive="active">Contact</a></div>
+                    </div>
+                </ng-template>
+            </div>
+         </div>
+    </div>
+</nav>
+

@@ -1,0 +1,14 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Mobile Menu">
+    <mat-icon>dehaze</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="goAbout()">
+      <span>About</span>
+    </button>
+    <button mat-menu-item (click)="goWork()" >
+      <span>Work</span>
+    </button>
+    <button mat-menu-item (click)="goContact()">
+      <span>Contact </span>
+    </button>
+  </mat-menu>
